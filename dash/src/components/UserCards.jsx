@@ -24,7 +24,7 @@ const UserCard = ({ item }) => {
 
             <div>
 
-                <Card className="w-[400px] hover:bg-sky-100 hover:shadow-xl hover:shadow-sky-100 sm:w-[280px] 
+                <Card className="w-[370px] hover:bg-sky-100 hover:shadow-xl hover:shadow-sky-100 sm:w-[280px] 
                 flex flex-col justify-center items-center md:w-[270px] lg:w-[320px]">
                     <CardHeader>
                         <CardTitle className="dark:text-blue-500 flex items-center gap-6 mb-5">
