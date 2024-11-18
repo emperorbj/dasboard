@@ -1,5 +1,7 @@
 import { Button } from "./ui/button"
 import { Moon, Sun } from "lucide-react"
+import {MdSearch} from 'react-icons/md'
+import {LuHeartHandshake} from 'react-icons/lu'
 
 import {
     DropdownMenu,
@@ -14,8 +16,11 @@ const Navbar = () => {
     const { setTheme } = useTheme()
     return (
         <div className="shadow-md px-4 md:px-8 rounded-md p-4 flex items-center justify-between">
-            <div>
-                <img src="/logo.svg" alt="logo" />
+            <div className='flex gap-2 items-center'>
+                <div className='shadow-md h-[35px] w-[35px] rounded-md flex items-center justify-center bg-sky-400'>
+                    <LuHeartHandshake className='text-white h-[26px] w-[26px]'/>
+                </div>
+                <h1 className='text-sky-400 font-bold text-xl'><span className='text-green-500'>U</span>Life</h1>
             </div>
             <div className="flex items-center gap-3">
 
