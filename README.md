@@ -30,7 +30,7 @@ Make sure you have the following installed:
 After cloning the repository, navigate to the project directory:
 
 ```bash
-cd 
+cd dash
 
 ### Installing dependencies
 
